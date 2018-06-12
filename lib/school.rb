@@ -17,4 +17,6 @@ class School
   def sort
     @roster.each do |grades, names|
       puts "#{grades}: #{names.sort}"
+    end
+  end
 end
